@@ -7,16 +7,17 @@ public class Leitura {
         System.out.println("Digite seu filme favorito");
         String filme = leitura.nextLine();
 
-
-        System.out.println("Qual o ano de lançamento ? ");
+        System.out.println("Qual o ano de lançamento? ");
         int anoLancamento = leitura.nextInt();
 
-        System.out.println("Qual a sua nota para o filme ?");
+        System.out.println("Qual a sua nota para esse filme ?");
         double notaFilme = leitura.nextDouble();
 
         System.out.println("""
-                    O filme %s, foi lançado em %d.
-                    Você deu a nota de %.2f
+                    O filme %s, foi lançado em %d
+                    E você avaliou ele com %.2f    
                 """.formatted(filme, anoLancamento, notaFilme));
+
+
     }
 }
