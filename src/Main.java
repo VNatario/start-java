@@ -24,6 +24,11 @@ public class Main {
 
         System.out.println(sinopse);
 
+        //Cast --> converção de tipos de variaves
+        int classificacao = (int) media / 2;
+        System.out.println("A classificação média é de %d estrelas.".formatted(classificacao));
+        System.out.println(String.format("A classificação média é de %d estrelas.", classificacao));
+
         String nome = "Natario";
         int idade = 25;
         String proficao = "Programador";
