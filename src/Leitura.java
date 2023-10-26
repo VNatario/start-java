@@ -18,6 +18,7 @@ public class Leitura {
                     E você avaliou ele com %.2f    
                 """.formatted(filme, anoLancamento, notaFilme));
 
+        System.out.println("Fim da operação");
 
     }
 }
